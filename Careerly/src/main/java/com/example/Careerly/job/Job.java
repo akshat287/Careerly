@@ -18,13 +18,14 @@ public class Job {
     private Company company;
 
     public Job(){}
-    public Job(int id, String title, String maxSalary, String minSalary, String description, String location) {
+    public Job(int id, String title, String maxSalary, String minSalary, String description, String location, Company company) {
         this.id = id;
         this.title = title;
         this.maxSalary = maxSalary;
         this.minSalary = minSalary;
         this.description = description;
         this.location = location;
+        this.company=company;
     }
 
 //    public Job(String description, int id, String location, String maxSalarey, String minSalarey, String title) {

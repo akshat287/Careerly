@@ -4,10 +4,12 @@ import com.example.Careerly.review.Review;
 import com.example.Careerly.review.ReviewController;
 import com.example.Careerly.review.ReviewRepo;
 import com.example.Careerly.review.ReviewService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ReviewServiceImplementation implements ReviewService {
 
     ReviewRepo reviewRepo;
